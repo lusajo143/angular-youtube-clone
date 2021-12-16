@@ -1,0 +1,11 @@
+.active {
+    background-color: #E5E5E5;
+}
+
+mat-list {
+    cursor: pointer;
+}
+
+.list:hover {
+    background-color: #F9F9F9;
+}
