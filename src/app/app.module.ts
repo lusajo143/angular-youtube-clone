@@ -14,7 +14,10 @@ import { MatInputModule } from '@angular/material/input';
 import { BodyComponent } from './body/body.component'
 import { MatSidenavModule } from '@angular/material/sidenav'
 import { MatListModule } from '@angular/material/list'
-import { MatDividerModule } from '@angular/material/divider'
+import { MatDividerModule } from '@angular/material/divider';
+import { HomeComponent } from './home/home.component';
+import { HomeSugestsComponent } from './home-sugests/home-sugests.component'
+import { MatCardModule } from '@angular/material/card'
 
 
 
@@ -26,7 +29,8 @@ const Material = [
   MatInputModule,
   MatSidenavModule,
   MatListModule,
-  MatDividerModule
+  MatDividerModule,
+  MatCardModule
 ]
 
 
@@ -34,7 +38,9 @@ const Material = [
   declarations: [
     AppComponent,
     HeaderComponent,
-    BodyComponent
+    BodyComponent,
+    HomeComponent,
+    HomeSugestsComponent
   ],
   imports: [
     BrowserModule,

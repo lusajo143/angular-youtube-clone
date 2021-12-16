@@ -1,0 +1,11 @@
+<div>
+    <mat-divider></mat-divider>
+    <h1 style="margin-top: 20px;"></h1>
+    <div style="margin-left: 10px;">
+        <div style="display: flex; flex-direction: row;">
+            <app-home-sugests *ngFor="let type of list" [type]="type"></app-home-sugests>
+        </div>
+    </div>
+    <br>
+    <mat-divider></mat-divider>
+</div>

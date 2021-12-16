@@ -1,0 +1,6 @@
+<div style="margin-left: 20px;">
+    <span class="card active" *ngIf="type == 'All' else other">{{type}}</span>
+    <ng-template #other>
+        <span class="card">{{type}}</span>
+    </ng-template>
+</div>
