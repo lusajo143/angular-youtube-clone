@@ -1,0 +1,9 @@
+.user {
+    border-radius: 30px;
+    background-image: url('https://yt3.ggpht.com/ySnReSyYoec_Foyq5xT3PdVw89dvgC9madTsTYA5DcaiWHS49RhnY6vvr0KGYk78eThtJ96jlg=s68-c-k-c0x00ffffff-no-rj');
+    background-position: center;
+    background-size: cover;
+    width: 48px;
+    height: 48px;
+    margin-right: 15px;
+}

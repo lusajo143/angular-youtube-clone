@@ -17,7 +17,8 @@ import { MatListModule } from '@angular/material/list'
 import { MatDividerModule } from '@angular/material/divider';
 import { HomeComponent } from './home/home.component';
 import { HomeSugestsComponent } from './home-sugests/home-sugests.component'
-import { MatCardModule } from '@angular/material/card'
+import { MatCardModule } from '@angular/material/card';
+import { VideoComponent } from './video/video.component'
 
 
 
@@ -40,7 +41,8 @@ const Material = [
     HeaderComponent,
     BodyComponent,
     HomeComponent,
-    HomeSugestsComponent
+    HomeSugestsComponent,
+    VideoComponent
   ],
   imports: [
     BrowserModule,
